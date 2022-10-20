@@ -1,0 +1,11 @@
+"use strict";
+let myarr=["Daniyal","Aliyan","Ali"];
+let new_quest=prompt(" Mr Ali is not comming. Whome you are going to invite ? ");
+myarr[2]=new_quest;
+let in_message0="Dear "+ `${myarr[0]}`+ " I send this invitation for dinner party at my house";
+let in_message1="Dear "+`${myarr[1]}`+ " I send this invitation for dinner party at my house";
+let in_message2="Dear "+`${myarr[2]}`+ " I send this invitation for dinner party at my house";
+alert(in_message0);
+alert(in_message1);
+alert(in_message2);
+alert("Guests List: " + " "+ `${myarr[0]}` + " " + `${myarr[1]}` + " " + `${myarr[2]}`);
